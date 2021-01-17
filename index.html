@@ -10,6 +10,7 @@
 </head>
 <body>
 <div class="container">
+<div class="weather-wrapper">
 <div class="weather-app">
 <h1> London </h1>
 <ul>
@@ -22,8 +23,12 @@ Clear
 </ul>
 <div class="row">
 <div class="col-6">
-<img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="clearblue"/>
+<div class="clearfix">
+<img class="float-left"src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="clearblue" />
+<div class="float-left">
 12° C | °F
+</div>
+</div>
 </div>
 <div class="col-6">
 <ul>
@@ -39,11 +44,10 @@ Wind:3 km/h
 </ul>
 </div>
 </div>
+</div>
 <small>
 <a href="https://github.com/sarahashlamoun/backup-weatherapp" target="_blank"> Open-source code</a>
-by Sara Hashlamoun</small>
-</div>
-</div>
+by Sara Hashlamoun</small></div>
 <script src="src/js.js"></script> 
 </body>
 </html>
