@@ -61,6 +61,17 @@ font-weight: 100;
 line-height: 19px;
 
 }
+
+
+.weather-temperature .active {
+color:black;
+cursor:default;
+}
+
+.weather-temperature .active {
+text-decoration: none;
+}
+
 a {
-text-decoration:none;
+text-decoration: none;
 }
